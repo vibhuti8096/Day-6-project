@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.w-1{
+    width: 8.33%;
+}
+
+.w-2{
+    width: 16.66%;
+}
+
+.w-3{
+    width: 25%;
+}
+
+.w-4{
+    width: 32%;
+}
+
+.w-5{
+    width: 41.66%;
+}
+
+.w-6{
+    width: 50%;
+}
+
+.w-7{
+    width: 58.33%;  
+}
+
+.w-8{
+    width: 66.66%;  
+}
+
+.w-9{
+    width: 75%;
+}
+
+.w-10{
+    width: 83.33%;
+}
+
+.w-11{
+    width: 91.66%;
+}
+
+.w-12{
+    width: 100%;
+}
+
+/* common css */
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.align-item{
+    align-items: center;
+}
+
+.mt-50{
+    margin-top: 40px;
+}
+
+
+/* main section */
+
+.bg{
+    background-color:rgb(217, 221, 221);
+    /* background-image: url(./img/22f30c1c06c893fe0ab014fb2d8dc14a.jpg); */
+
+}
+
+.box1{
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: auto;
+    font-size: 23px;
+    padding: 20px;
+    gap: 15px; 
+    background-image: url(./img/photo-1487147264018-f937fba0c817.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: rgb(230, 236, 236); */
+    /* margin: 10px; */
+    /* background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); */
+}
+
+.frame{
+    width: 250px;
+    aspect-ratio: 4/4;
+    border-radius: 50%;
+    height: 250px;
+    margin-left: 50px;
+    border: 1px solid black;
+    overflow: hidden;    
+}
+
+.frame img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: left;
+}
+
+#Heading{
+    text-align: center;
+    /* margin-top: px; */
+}
+
+.row{
+    gap: 10px;
+}
+
+#author{
+    text-align: center;
+    margin-top: 25px;
+     font-family: "Bungee", sans-serif;
+}
+
+#birthPlace {
+    text-align: center;
+}
+
+#birthPlace a{
+    color: black;
+    text-decoration: none;
+}
+
+#quote{
+    margin-top: 20px;
+   font-family: "Dancing Script", cursive;
+}
